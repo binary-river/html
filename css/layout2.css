@@ -1,0 +1,102 @@
+
+div {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+html {
+    line-height: 1.15;
+}
+
+.main-background {
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/shoes.jpg);
+    position:relative;
+}
+
+.main-title {
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.main-text-wrapper {
+    width:100%;
+    margin-top:230px;
+    display: block;
+}
+
+.main-text {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    width:140px;
+    margin-left: auto;
+    margin-right:auto;
+
+}
+
+.text-cornwall {
+    font-size: small;
+}
+
+
+.main-button {
+    width:130px;
+    height: 40px;
+    padding: 10px 25px;
+    border:2px solid white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size:smaller;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color:white;
+    position:absolute;
+    left:0px;
+    right:0px;
+    margin-left:auto;
+    margin-right:auto;
+    bottom:95px;
+}
+
+.main-button:hover {
+    box-shadow:
+   -2px -2px 5px 0px #fff9,
+   -2px -2px 5px 0px #fff9,
+   2px 2px 5px 0px #0002,
+   2px 2px 5px 0px #0001;
+}
+
+.bottom-box {
+    width: 70%;
+    max-width:700px;
+    height: 45%;
+    background-color: lightgray;
+    position:relative;
+    top: -50px;
+    margin:auto;
+    padding: 1px;
+}
+
+.bottom-head{
+    text-align: center;
+    font-size: medium;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bottom-paragraph {
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 7px;
+}
